@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: definef
+# key: definef
+# --
+#define ${macro}(${x}) ${define}
