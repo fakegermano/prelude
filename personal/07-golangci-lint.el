@@ -1,4 +1,4 @@
-(prelude-require-packages '(flycheck 'flycheck-golangci-lint))
+(prelude-require-packages '(flycheck flycheck-golangci-lint))
 (eval-after-load 'flycheck
   '(add-hook 'flycheck-mode-hook #'flycheck-golangci-lint-setup))
 (setq flycheck-golangci-lint-fast t)
